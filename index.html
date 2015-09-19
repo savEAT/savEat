@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>savEAT</title>
+
+		<meta name="author" content="E,T,J" />
+		<meta name="description" content="Reservation Webpage" />
+		<meta name="keywords"  content="webDev, web" />
+		<meta name="Resource-type" content="Document" />
+		
+		  <!-- Favicon /-->
+  <link rel="shortcut icon" href="images/profileimg.png" type="image/x-icon" /> <!-- Favicon /-->
+
+		<!--
+ **---------  Link CSS  ---------**
+ --------------------------------------- 
+-->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+	</head>
+	
+	<!--
+ **---------  HTML BodyStarts  ---------**
+ --------------------------------------- 
+-->
+	<body>
+           
+            <!--           SECTION#0------------------------------------------------------------------------------->
+            <div class="section" id="section0">
+                <div class="buttonContainer">
+                    <input class = "listbuttons" type = "button" value = "Location">
+                    <input class = "listbuttons" type = "button" value = "Name">
+                    <input class = "listbuttons" type = "button" value = "Menu">
+                </div>
+                <form>
+                    <input class = "typelabel" type="text" placeholder = "type here">
+                    <input class = "gobutton" type = "button" value = "GO">
+                </form>
+            </div>
+			
+           <!--           END        ------------------------------------------------------------------------------->
+
+        <script>
+//<!--        *********** MENU BUTTON TOGGGLE **********  -->
+    $('.handle').on('click', function(){
+            $('nav ul').toggleClass('showing');
+        })
+        </script>
+	</body>
+</html>
